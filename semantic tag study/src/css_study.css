@@ -2,8 +2,9 @@ body {
   background-color: rgba(112, 227, 112, 0.438);
 }
 header {
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
+  text-align: center;
   font-size: 20px;
   background-image: linear-gradient(
     30deg,
@@ -19,8 +20,9 @@ header {
   -webkit-background-clip: text;
 }
 nav {
-  display: flex;
-  justify-content: end;
+  /* display: flex;
+  justify-content: end; */
+  float: right;
 }
 .ig img {
   margin-right: 20px;
@@ -50,21 +52,25 @@ nav {
 }
 .emoji img {
   height: 30px;
-  display: flex;
-  justify-content: space-around;
   margin-top: 40px;
 }
+
+/* .emoji {
+  display: flex;
+  justify-content: space-around;
+} */
+
 .favoriteimg {
   display: flex;
   justify-content: end;
-  margin-top: -200px;
+  /* margin-top: -200px; */
 }
 footer {
-  display: flex;
-  align-items: flex-end;
-  bottom: 0px;
+  /* display: flex;
+  align-items: flex-end; */
   background-image: linear-gradient(45deg, #861657, #ffa69e);
   color: transparent;
   -webkit-background-clip: text;
   position: absolute;
+  bottom: 0px;
 }
