@@ -1,0 +1,25 @@
+.logo {
+  position: absolute;
+  left: 42%;
+  top: 23%;
+}
+.left p {
+  margin-right: 10px;
+  float: left;
+}
+.right p {
+  float: right;
+}
+p {
+  margin-left: 15px;
+  margin-top: 15px;
+  font-size: 14px;
+}
+.right img {
+  float: right;
+  width: auto;
+  height: 20px;
+}
+img {
+  margin-right: 15px;
+}
