@@ -1,7 +1,16 @@
+header {
+  position: relative;
+}
 .logo {
   position: absolute;
-  left: 42%;
-  top: 23%;
+  top: 165px;
+  left: 630px;
+}
+header p {
+  margin-left: 15px;
+  margin-top: 15px;
+  font-size: 14px;
+  color: black;
 }
 .left p {
   margin-right: 10px;
@@ -9,17 +18,129 @@
 }
 .right p {
   float: right;
-}
-p {
-  margin-left: 15px;
-  margin-top: 15px;
-  font-size: 14px;
+  margin-right: 5px;
 }
 .right img {
   float: right;
   width: auto;
   height: 20px;
-}
-img {
   margin-right: 15px;
+}
+section {
+  position: relative;
+  text-align: center;
+}
+.search input {
+  box-sizing: border-box;
+  position: absolute;
+  top: 286px;
+  left: 485px;
+  width: 560px;
+  height: 45px;
+  border-radius: 30px;
+  border-color: rgba(0, 0, 0, 0.17);
+  border-width: 1px;
+  padding-left: 40px;
+}
+.search input:hover {
+  box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.192);
+}
+.dop {
+  position: absolute;
+  top: 295px;
+  bottom: 430px;
+  left: 495px;
+}
+.key {
+  position: absolute;
+  top: 295px;
+  bottom: 430px;
+  left: 960px;
+  cursor: pointer;
+}
+.key:hover + .tooltip {
+  opacity: 1;
+}
+.mike:hover + .tooltip {
+  opacity: 1;
+}
+.mike {
+  position: absolute;
+  top: 292px;
+  bottom: 430px;
+  left: 1010px;
+  cursor: pointer;
+}
+.searcher {
+  position: absolute;
+  left: 630px;
+  top: 350px;
+  height: 34px;
+  width: 100px;
+  background-color: rgba(0, 0, 0, 0.049);
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.tooltip {
+  opacity: 0;
+  color: white;
+  font-size: 12px;
+}
+.tooltip-mike {
+  position: relative;
+  top: 308px;
+  left: 280px;
+  background-color: black;
+  display: inline-block;
+  padding: 8px;
+}
+.tooltip-key {
+  position: relative;
+  top: 340px;
+  left: 235px;
+  background-color: black;
+  display: inline-block;
+  padding: 8px;
+}
+.feel {
+  position: absolute;
+  left: 750px;
+  top: 350px;
+  height: 34px;
+  width: 150px;
+  background-color: rgba(0, 0, 0, 0.049);
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+footer {
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.052);
+  width: 100%;
+  color: rgba(0, 0, 0, 0.644);
+}
+.kor {
+  font-size: 15px;
+  padding-left: 27px;
+  padding-bottom: 12px;
+  padding-top: 15px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  border-top: solid 1px rgba(0, 0, 0, 0.071);
+  border-bottom: solid 1px rgba(0, 0, 0, 0.071);
+}
+.bottom p {
+  display: inline;
+  font-size: 14px;
+  margin-right: 0px;
+  margin-left: 33px;
+  float: left;
+  color: rgba(0, 0, 0, 0.644);
+}
+.bottomr {
+  margin-left: 1250px;
 }
